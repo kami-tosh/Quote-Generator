@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus&display=swap');
+body {
+    background-color: #FFE8F2;
+    margin: 0px;
+    font-family: 'Arbutus';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.quotes {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px;
+    color: black;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 1400px;
+    border-radius: 50px;
+    font-size: 25px;
+    background: radial-gradient(40% 50%, #FFA0CC, #FFE8F2);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: hotpink;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    box-shadow: deeppink 0 10px 15px;
+}
+
+.menu li {
+    padding: 13px 30px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #FFE8F2;
+}
+
+.button-28 {
+    appearance: none;
+    background-color: hotpink;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Arbutus';
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    line-height: normal;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: deeppink 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    position: absolute;
+    display: block;
+    margin-left: 800px;
+    margin-top: 15px;
+    width: 500px;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
+h3 {
+    margin-top: 150px;
+    margin-left: 800px;
+    font-size: 25px;
+}
+
+hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 25px;
+}
+
+.button {
+  background-color: hotpink;
+  color: white;
+  padding: 16px 20px;
+  margin-bottom: 30px;
+    border-radius: 20px;
+  margin-left: 150px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+  text-align: center;
+  font-size: large;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.signin {
+  background-color: #ffffff;
+  text-align: center;
+}
+#no_account{
+  margin-left: 100px;
+}
+#signup_btn{
+  color: white;
+  text-align: center;
+  margin-left: 190px;
+}
+
+
+.user-card-full {
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 15px;
+    -webkit-box-shadow: 0 1px 20px 0 deeppink;
+    box-shadow: 0 1px 20px 0 deeppink;
+    border: none;
+    margin-top: 0px;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+        background: hotpink;
+}
+
+.user-profile {
+    padding: 20px 0;
+}
+
+.card-block {
+    padding: 500px;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.img-radius {
+    border-radius: 5px;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px){
+p {
+    font-size: 20px;
+}
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: hotpink !important;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+        font-size: 20px;
+
+
+}
+
+.user-card-full .social-link li {
+    display: inline-block;
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.main{
+    height: 300px;
+    width: 1400px;
+    border-radius: 50px;
+    font-size: 25px;
+    background: radial-gradient(40% 50%, #FFA0CC, #FFE8F2);
+    margin: auto;
+    text-align: center;
+    padding: 70px 0;
+    margin-top: 300px;
+}
+.add_quote{
+
+}
+.enter_quote{
+    margin-top: 10px;
+    border-radius: 20px;
+    border-width: 0;
+    width: 700px;
+    height: 50px;
+}
+
+.submit_quote {
+    appearance: none;
+    background-color: hotpink;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Arbutus';
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    line-height: normal;
+    min-height: 60px;
+    min-width: 0;
+    height: 5%;
+    outline: none;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 20%;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+
+.submit_quote:disabled {
+  pointer-events: none;
+}
+
+.submit_quote:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: deeppink 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.submit_quote:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
